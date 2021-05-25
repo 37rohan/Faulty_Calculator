@@ -3,8 +3,9 @@
 print("Welcome To Python Calculator")
 
 while True:
-    print("Choose operation * + - / ")
+    print("Choose operation * \n + \n - \n / \n ** ")
     operator = ["*","+","-","/"]
+    print("Give the following operator: \n")
     operator = str(input())
     print("Give first value:")
     val1 = int(input())
@@ -34,5 +35,3 @@ while True:
         continue
     else:
         print("Thanks for using this Calculator")
-
-
